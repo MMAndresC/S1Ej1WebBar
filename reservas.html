@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name=""viewport" content="width=device-width, initial-scaling=1.0">
+        <title>Moxxi Bar || Reservas</title>
+    </head>
+    <body>
+        <h1>Reservas</h1>
+        <form action="" method="get">
+            <div>
+                <label for="num-persons">
+                    <h3>Personas</h3>
+                    <select name="num-persons">
+                        <option value="2" selected>2</option>
+                        <option value="3" >3</option>
+                        <option value="4" >4</option>
+                        <option value="5" >5</option>
+                        <option value="6" >6</option>
+                        <option value="7" >7</option>
+                        <option value="8" >8</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label for="hora-reserva">
+                    <h3>Hora</h3>
+                    <select name="hora-reserva" required>
+                        <option value disabled selected>Seleccione una hora</option>
+                        <option value="turno1" >21:00</option>
+                        <option value="turno2" >21:25</option>
+                        <option value="turno3" >21:45</option>
+                        <option value="turno4" >22:00</option>
+                        <option value="turno5" >22:25</option>
+                    </select>
+                </label>
+            </div>           
+            <div>
+                <label for="tipo-mesa">
+                    <h3>Tipo de mesa</h3>
+                    <select name="tipo-mesa" required>
+                        <option value disabled selected>Seleccione el tipo de mesa</option>
+                        <option value="reservado" >Reservado</option>
+                        <option value="midsala"" >Media sala</option>
+                        <option value="ventana" >Ventana</option>
+                    </select>
+                </label>
+            </div>       
+            <button type="submit">Reservar</button>    
+        </form>
+        <h2>Si no encuentras disponibilidad, apuntese en la lista de espera</h2>
+        <button type="submit">Lista de espera</button>
+        <button type="submit">Solicitud de grupo</button>
+        <aside>
+            <img src="./Imgbar/logo-bar.JPG" alt="Logo Moxxi" width="200px" />
+            <h3>Calle repeat y despair 8 local 42</h3>
+            <h3>75002 Rebolledo del roncal</h3>
+            <h3>Abrimos lunes a domingo de 7:30 a 23:00</h3>
+        </aside>
+    </body>
+</html>
