@@ -1,0 +1,10 @@
+body{
+    background-image: url("../Imgbar/fondo-bar.jpg");
+}
+
+img{
+    border-radius: 8px;
+    border-color: darkgreen;
+    max-width: 50%;
+    
+}
