@@ -1,0 +1,20 @@
+header{
+    background-color:darkmagenta;
+    width:1859px;
+    position: relative;
+}
+
+a{
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: black;
+    text-decoration-color: yellow;
+    text-underline-position: under;
+}
+
+div{
+    position:absolute;
+    left: 32%;
+    top: 60%;
+}

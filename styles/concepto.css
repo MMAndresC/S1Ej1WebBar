@@ -1,0 +1,57 @@
+body{
+    background-image: url("../Imgbar/Fondo-carta-1024x1024.jpg");
+}
+
+.container{
+    position:absolute;
+    background-color: black;
+    width:700px;
+    height:500px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    position:absolute;
+    color:aliceblue;
+    top:5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+p{
+    position:absolute;
+    color: aliceblue;
+    text-align: left;
+    width:500px;
+    left:100px;
+}
+
+.first-paragraph{
+    top:23%;
+}
+
+.second-paragraph{
+    top:50%;
+}
+
+.third-paragraph{
+    top:67%;
+}
+
+.decorative-line{
+    position:absolute;
+    width:150px;
+    height:2px;
+    background-color: aliceblue;
+    top:13%;
+}
+
+.line-inic{
+    left:15%;
+}
+
+.line-end{
+    right:15%;
+}
+
